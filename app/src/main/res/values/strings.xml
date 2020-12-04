@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">IOTAPP</string>
+    <string name="create_your">
+
+Create your account
+</string>
+
+    <string name="fill_the_fo">
+
+Fill the forms below to create your new account
+</string>
+    <string name="name">
+
+Name
+</string>
+
+    <string name="email_addre">
+
+        Email Address
+    </string>
+
+    <string name="password">
+
+        Password
+    </string>
+    <string name="sign_up">
+
+Sign Up
+</string>
+    <string name="already_hav">
+
+        Already have an account ? Log In
+    </string>
+
+    <string name="overview">
+
+Overview
+</string>
+
+    <string name="relative_hu">
+
+Relative Humidity
+</string>
+    <string name="some_id">
+
+            60%
+        </string>
+    <string name="moisture_co">
+
+            Moisture Content
+        </string>
+
+    <string name="temperature">
+
+            Temperature(c)
+        </string>
+
+    <string name="irrigation_">
+
+        Irrigation History
+    </string>
+
+    <string name="view_all">
+
+        View all
+    </string>
+
+    <string name="pump_manual">
+
+        Pump Manually
+    </string>
+
+    <string name="volume_of_w">
+
+            Volume of water pumped
+        </string>
+
+    <string name="l">
+
+            0.0L
+        </string>
+    <string name="pump_timer_">
+
+            Pump Timer : 0:00
+        </string>
+
+
+</resources>

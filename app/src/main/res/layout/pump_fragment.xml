@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_9"
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:outlineProvider="background"
+    android:background="@drawable/android_9">
+
+
+    <TextView
+        android:id="@+id/pump_manual"
+        android:layout_width="159dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/pump_manual"
+        android:textAppearance="@style/pump_manual"
+        android:gravity="top"
+        />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rectangle_1"
+        android:layout_width="328dp"
+        android:layout_height="157dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rectangle_1">
+
+
+        <ImageView
+            android:id="@+id/irrigation_image"
+            android:layout_width="35dp"
+            android:layout_height="51dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="#C4EAFF"
+            android:src="@drawable/irrigation"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.782"
+            app:layout_constraintStart_toEndOf="@+id/volume_of_w"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.066" />
+
+        <TextView
+            android:id="@+id/volume_of_w"
+            android:layout_width="154dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/volume_of_w"
+            android:textAppearance="@style/volume_of_w"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05" />
+
+        <TextView
+            android:id="@+id/l"
+            android:layout_width="109dp"
+            android:layout_height="84dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/l"
+
+            android:textAlignment="center"
+            android:textAppearance="@style/l"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/volume_of_w" />
+
+        <TextView
+            android:id="@+id/pump_timer_"
+            android:layout_width="106dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal|top"
+            android:text="@string/pump_timer_"
+            android:textAppearance="@style/pump_timer_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/rectangle_4"
+        android:layout_width="328dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="523dp"
+        android:text="Start"
+        android:textAppearance="@style/sign_up"
+        android:background="@drawable/rectangle_4"
+        />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+

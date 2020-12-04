@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/android_7"
+    android:outlineProvider="background"
+    android:background="@drawable/android_7">
+
+
+    <TextView
+        android:id="@+id/create_your"
+        android:layout_width="253dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="188dp"
+        android:gravity="top"
+        android:text="Sign In"
+        android:textAppearance="@style/create_your" />
+
+    <TextView
+        android:id="@+id/email_addre"
+        android:layout_width="85dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="239dp"
+        android:gravity="top"
+        android:text="@string/email_addre"
+        android:textAppearance="@style/email_addre" />
+
+    <EditText
+        android:id="@+id/e_mail_text"
+        android:layout_width="328dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="283dp"
+        android:background="@drawable/rectangle_3" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="59dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="364dp"
+        android:gravity="top"
+        android:text="@string/password"
+        android:textAppearance="@style/password" />
+
+    <EditText
+        android:id="@+id/password_text"
+        android:layout_width="328dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="398dp"
+        android:background="@drawable/rectangle_5" />
+
+    <Button
+        android:id="@+id/rectangle_4"
+        android:layout_width="328dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="493dp"
+        android:backgroundTint="#010566"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up" />
+
+    <TextView
+        android:id="@+id/already_hav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:onClick=""
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="582dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center_horizontal|top"
+        android:text="@string/already_hav"
+        android:textColor="@color/black"
+        android:textAppearance="@style/already_hav" />
+
+</RelativeLayout>

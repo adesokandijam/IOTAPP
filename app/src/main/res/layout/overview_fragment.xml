@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/overview"
+        android:layout_width="96dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/overview"
+        android:textAppearance="@style/overview"
+        android:gravity="top"
+        />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rectangle_6"
+        android:layout_width="160dp"
+        android:layout_height="222dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="77dp"
+        android:background="@drawable/rectangle_6">
+
+        <TextView
+            android:id="@+id/relative_hu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:gravity="top"
+            android:text="@string/relative_hu"
+            android:textAppearance="@style/relative_hu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.285"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/humi_text"
+            android:layout_width="113dp"
+            android:layout_height="84dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!--
+          Font family: Poppins
+          Line height: 84sp
+          (identical to box height)
+        -->
+        <!-- styles.xml -->
+
+
+        <!-- strings.xml -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rectangle_7"
+        android:layout_width="160dp"
+        android:layout_height="107dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/rectangle_7">
+
+        <!--
+          Font family: Poppins
+          Line height: 18sp
+          (identical to box height)
+        -->
+        <!-- styles.xml -->
+
+
+        <!-- strings.xml -->
+
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:gravity="top"
+            android:text="@string/temperature"
+            android:textAppearance="@style/temperature"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/temp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.714"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/temperature"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/group_32"
+        android:layout_width="160dp"
+        android:layout_height="107dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="191dp"
+        android:background="#C4EAFF">
+
+        <!--
+          Font family: Poppins
+          Line height: 18sp
+          (identical to box height)
+        -->
+        <!-- styles.xml -->
+
+
+        <!-- strings.xml -->
+
+
+        <TextView
+            android:id="@+id/moisture_co"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="2dp"
+            android:gravity="top"
+            android:text="@string/moisture_co"
+            android:textAppearance="@style/moisture_co"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/moisture_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/moisture_co"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <!--
+          Font family: Poppins
+          Line height: 60sp
+          (identical to box height)
+        -->
+        <!-- styles.xml -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/irrigation_"
+        android:layout_width="102dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="331dp"
+        android:text="@string/irrigation_"
+        android:textAppearance="@style/irrigation_"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/view_all"
+        android:layout_width="39dp"
+        android:layout_height="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="333dp"
+        android:text="@string/view_all"
+        android:textAppearance="@style/view_all"
+        android:gravity="right|top"
+        />
+
+    <!--
+      Font family: Poppins
+      Line height: 15sp
+      (identical to box height)
+    -->
+    <!-- styles.xml -->
+
+
+
+    <!-- strings.xml -->
+
+
+
+
+
+</RelativeLayout>
+
